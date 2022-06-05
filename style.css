@@ -1,0 +1,177 @@
+/* Add support for light/dark mode? */
+
+/*
+dark:
+background-color: #212529;
+color: #ffffff;
+
+*/
+
+* {
+  box-sizing: border-box;
+}
+
+/* Create two equal columns that floats next to each other */
+.header-column {
+  float: left;
+  width: 50%;
+  padding: 10px;
+}
+  
+  .row::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
+
+  body {
+      font-size: 1.2em;
+  }
+  
+  [class*="col-"] {
+    float: left;
+    padding: 25px;
+  }
+  
+  html, body {
+    font-family: "GT Walsheim Pro","Helvetica Neue",Helvetica,Arial,sans-serif;
+    color: #212529;
+    height: 100%;
+    margin: 0;
+  }
+
+  /* Create two equal columns that floats next to each other */
+
+
+  .content {
+    flex: 1 0 auto;
+  }
+  
+  .gradient-btm-right {
+    background: rgb(255,0,0);
+    background: linear-gradient(165deg, rgba(255,0,0,1) 0%, rgba(255,0,0,1) 15%, rgba(212,237,252,1) 75%);
+  }
+
+  .header {
+    color: #FFFFFF;
+    padding: 25px;
+  }
+
+    .header-column {
+    float: left;
+    width: 50%;
+    padding: 10px;
+  }
+  
+  .right {
+    float: right;
+    width: 10%;
+  }
+
+  .menu-icon {
+      text-align: right;
+      padding: 40px;
+  }
+
+  .menu ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .menu li {
+    padding: 14px;
+    margin-bottom: 10px;
+    background-color: #D4EDFC;
+    color: #FF0000;
+    box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+  }
+  
+  .menu li:hover {
+    background-color: #FF0000;
+    color: #FFFFFF;
+  }
+  
+  .aside {
+    background: rgb(255,0,0);
+    background: linear-gradient(180deg, rgba(255,0,0,1) 0%, rgba(212,237,252,1) 25%);
+    padding: 15px;
+    color: #FF0000;
+    text-align: center;
+    font-size: 16px;
+    box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+  }
+
+    img {
+        max-width: 100%;
+        max-height: auto;
+    }
+
+    .profile {
+        position:relative;
+        margin-top: -10px;
+        max-width: 45%;
+        min-width: 113px;
+        height: auto;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+    }
+  
+  .footer {
+    background-color: #FF0000;
+    color: #ffffff;
+    text-align: left;
+    font-size: 14px;
+    padding: 30px;
+    height: 220px;
+    background-image: url("ripples.png");
+    background-repeat: repeat;
+    background-size: 200px 200px;
+  }
+
+  .content {
+    min-height: calc(100vh - 170px);
+  }
+
+  .email-link, .tel-link {
+    color: #ffffff;
+  }
+  
+  /* For mobile phones: */
+  [class*="col-"] {
+    width: 100%;
+  }
+
+
+  @media only screen and (min-width: 600px) {
+    /* For tablets: */
+    .col-s-1 {width: 8.33%;}
+    .col-s-2 {width: 16.66%;}
+    .col-s-3 {width: 25%;}
+    .col-s-4 {width: 33.33%;}
+    .col-s-5 {width: 41.66%;}
+    .col-s-6 {width: 50%;}
+    .col-s-7 {width: 58.33%;}
+    .col-s-8 {width: 66.66%;}
+    .col-s-9 {width: 75%;}
+    .col-s-10 {width: 83.33%;}
+    .col-s-11 {width: 91.66%;}
+    .col-s-12 {width: 100%;}
+    .menu-icon {display: block;}
+  }
+  @media only screen and (min-width: 768px) {
+    /* For desktop: */
+    .col-1 {width: 8.33%;}
+    .col-2 {width: 16.66%;}
+    .col-3 {width: 25%;}
+    .col-4 {width: 33.33%;}
+    .col-5 {width: 41.66%;}
+    .col-6 {width: 50%;}
+    .col-7 {width: 58.33%;}
+    .col-8 {width: 66.66%;}
+    .col-9 {width: 75%;}
+    .col-10 {width: 83.33%;}
+    .col-11 {width: 91.66%;}
+    .col-12 {width: 100%;}
+  }
