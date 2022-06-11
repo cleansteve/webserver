@@ -1,14 +1,16 @@
 
- <body>
-
 <?php
 include 'header.html';
-include 'nav.html';
+include 'src/navigation.php';
 ?>
 
+<br>
 
-  <div class="col-6 col-s-9">
-    <h1>Day One</h1>
+<div id = "mainPage" class="col-8 col-s-12 content">
+  <h1>Index</h1>
+
+    <br><br>
+    <h2>Day One</h2>
     <p>
       This is a log of my programming enDEVours.
     </p>
@@ -17,23 +19,7 @@ include 'nav.html';
     <p>Nulla volutpat pretium aliquam. Nunc ultricies tellus eget scelerisque imperdiet. Nunc posuere risus sed ligula molestie, eget venenatis nisl posuere. Cras lorem sapien, volutpat vel ipsum volutpat, venenatis volutpat lorem. Nam vehicula gravida nibh vitae laoreet. Sed congue massa nulla. Morbi laoreet magna ac lacus finibus malesuada. Donec vitae finibus leo, id eleifend lectus. Praesent hendrerit consequat congue. Curabitur rhoncus sagittis nibh id dictum. Ut sit amet tellus odio. Interdum et malesuada fames ac ante ipsum primis in faucibus.</p>
     <p>Aenean in risus arcu. Curabitur nec ante a orci aliquet aliquet. Sed consequat lacinia justo nec dapibus. Nunc ultricies orci sit amet lacus finibus aliquet. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras sit amet finibus massa. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque laoreet, elit quis pulvinar luctus, enim neque egestas risus, eu ultricies eros tortor imperdiet ex. Proin in elit nec ex facilisis feugiat. Nullam eget est facilisis, rhoncus quam sed, viverra lectus. Donec vel sapien dui.</p>
   </div>
-
-  <div class="col-3 col-s-12 content">
-    <div class="aside">
-      <div class="profile">
-        <img src="nick-profile.png">
-      </div>
-        <div>
-        <h2>Who?</h2>
-        <p>I'm Nick, an American living in Germany for the past 7 years.</p>
-        <h2>What?</h2>
-        <p>I'm a Customer Success Engineer with a passion for software and I am trying to catch my break in the industry.</p>
-        <h2>How?</h2>
-        <p>Hopefully the materials on this site display my ability to quickly learn and my motivation to succeed.</p>
-      </div>
-    </div>
-  </div>
-
+  
 <?php
 include 'footer.html';
 ?>

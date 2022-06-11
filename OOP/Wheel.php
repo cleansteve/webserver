@@ -21,7 +21,4 @@ class Wheel{
     }
   }
   
-  $wheel = new Wheel(12,"Black");
-  print $wheel->pretty();
-
   ?>
