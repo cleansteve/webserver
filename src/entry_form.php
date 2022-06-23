@@ -1,13 +1,3 @@
-<?php
-    $title = filter_input(INPUT_POST, "title", FILTER_SANITIZE_STRING);
-    $authors = filter_input(INPUT_POST, "authors", FILTER_SANITIZE_STRING);
-    $topic = filter_input(INPUT_POST, "topic", FILTER_SANITIZE_STRING);
-    $progress_perc = filter_input(INPUT_POST, "progress_perc", FILTER_SANITIZE_STRING);
-    $hours_spent = filter_input(INPUT_POST, "hours_spent", FILTER_SANITIZE_STRING);
-    $content = filter_input(INPUT_POST, "content", FILTER_SANITIZE_STRING);
-    $tags = filter_input(INPUT_POST, "tags", FILTER_SANITIZE_STRING);
-
-?>
 <html>
 <body>
 

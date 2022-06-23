@@ -1,5 +1,6 @@
 
 <?php
+//include 'src/config.php';
 include 'header.html';
 include 'src/navigation.php';
 ?>
