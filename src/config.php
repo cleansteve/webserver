@@ -1,6 +1,6 @@
 <?php
 
-$maintenance_mode = true;
+$maintenance_mode = false;
 $maintenance_url = "/src/maintenance.php";
 
 // a nice enhancement would be a simple login that checks for admin + password or privileged user + password. What if the person is authorized?
