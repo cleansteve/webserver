@@ -1,5 +1,6 @@
+<?php include 'src/config.php'; ?>
 <html>
-    <head>
+  <head>
     <title>GET Kruschke</title>
     <link rel="stylesheet" href="css/style.css">
     <link rel="icon" href="/images/favicon.png" type="/home/superfreq/webserver/favicon.png" />

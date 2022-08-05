@@ -1,16 +1,12 @@
-
 <?php
-include 'src/config.php';
-include 'header.html';
+include 'header.php';
 include 'src/navigation.php';
-
 ?>
 
 <br>
 
 <div id = "mainPage" class="col-8 col-s-12 content">
   <h1>Index Test</h1>
-
     <br><br>
     <h2>Day One</h2>
     <p>
